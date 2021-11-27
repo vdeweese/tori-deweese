@@ -50,6 +50,7 @@ html {
 .right  { text-align: right; }
 
 
+
 /* Typography */
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -163,7 +164,11 @@ footer h3 {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('/images/plant.jpg');
+}
+
+.bg-meeting {
+    background-image: url('/tori-deweese/images/hilton-head.JPG');
+    background-position: 50% 38%;
 }
 
 
@@ -173,7 +178,8 @@ footer h3 {
 
     .hide-sm { display: none; }
 
-    .center-sm { text-align: center; }
+    .center-sm { text-align: center; 
+                padding: 3%;}
 
     .flex-flip-sm { flex-direction: column-reverse; }
 
@@ -191,6 +197,14 @@ footer h3 {
         margin: 0;
     }
 
+    .bg-meeting {
+        display: none;
+    }
+
+    footer a:first-child {
+        padding-top: 0;
+        margin-top:0;}
+
 }
 
 
@@ -203,6 +217,12 @@ footer h3 {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
     min-height: 100%;
   }
+
+  .card:hover {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+    margin-top:-2px;
+  }
+
   .profile {
     width: 100%;
     max-width: 8rem;
