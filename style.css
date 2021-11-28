@@ -167,7 +167,7 @@ footer h3 {
 }
 
 .bg-meeting {
-    background-image: url('/tori-deweese/images/hilton-head.JPG');
+    background-image: url('images/hilton-head.JPG');
     background-position: 50% 38%;
 }
 
@@ -183,15 +183,6 @@ footer h3 {
 
     .flex-flip-sm { flex-direction: column-reverse; }
 
-    .bg-plant {
-        background-image: url('/images/plant-light.png');
-    }
-    
-    .bg-plant-2 {
-        background-image: url('/images/plant-2-light.png');
-        background-position: 45% 50%;
-
-    }
     .inline {
         text-align: left;
         margin: 0;
