@@ -35,15 +35,25 @@ html {
 .padded-b-0 { padding-bottom: 0; }
 .margin-b-0 { margin-bottom: 0; }
 
-.bg-rust  { background-color: #d3b4a2; }
+/* .bg-rust  { background-color: #d3b4a2; }
 .bg-green { background-color: #9b9b81; }
 .bg-dark  { background-color: #a2745c; }
 .bg-light {background-color: white;}
+.bg-grey {background-color:rgb(240,240,240);} */
+
+.bg-blue  { background-color: #43638e; }
+.bg-green { background-color: #9b9b81; }
+.bg-dark  { background-color: #2a3e59; }
+.bg-light {background-color: white;}
 .bg-grey {background-color:rgb(240,240,240);}
+
+
 
 .project {max-height: 70vh;}
 
 .light-text { color: white; } 
+.color-text {color: #ffca3a;}
+.dark-text {color: black;}
 
 .left   { text-align: left; }
 .center { text-align: center; }
@@ -91,8 +101,6 @@ nav a {
     padding: 0.25rem;
 }
 
-a:hover { color: #a2745c; }
-
 ul {
     line-height: 1.5em;
 }
@@ -106,6 +114,11 @@ span{
     opacity: 0.8;
     font-size: 0.9rem;
 }
+
+.job {
+    font-weight: bold;
+    margin-bottom:0;
+  }
 
 
 /* Header & Footer  */
@@ -129,7 +142,7 @@ header {
 }
 
 footer a:hover { 
-    color: #dfe7fd; 
+    color: #ffca3a; 
 }
 
 footer a {
@@ -141,7 +154,6 @@ footer h3 {
 }
 
 
-
 .inline a:first-child {
     margin-top: 5%;
 }
@@ -149,13 +161,6 @@ footer h3 {
     display:inline-block;
     padding: 0.5rem;
   }
-
-/* Icon Grid Section  */
-.icon-section img {
-    max-width: 3rem;
-    opacity: 0.8;
-    margin: 1rem 0;
-}
 
 
 /* Background Images */
@@ -173,7 +178,61 @@ footer h3 {
 
 
 
-/* SM - max-width in pixels approximately 768px */
+/* NEW Leadership Cards */
+
+.icon-section img {
+    max-width: 3rem;
+    opacity: 0.8;
+    margin: 1rem 0;}
+
+.card {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+    min-height: 100%;
+  }
+
+  .card:hover {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+    margin-top:-2px;
+  }
+
+  .profile {
+    width: 100%;
+    max-width: 8rem;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card .date {
+    margin-bottom: 2rem;
+  }
+
+  /* Projects Section */
+div.grid > div.align-top {
+    align-self: stretch;
+}
+ 
+
+  /* NEW Testimonials */
+
+  hr { /* this is a line element */
+    border: none;
+    border-bottom: 3px solid;
+    width: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-small {
+    max-width: 8rem;
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* SM - max-width in pixels approximately 768px */
 @media(max-width: 48em) {
 
     .hide-sm { display: none; }
@@ -196,54 +255,7 @@ footer h3 {
         padding-top: 0;
         margin-top:0;}
 
-    .hidden {
+    hidden {
         display: none;
     }
 }
-
-/* NEW Leadership Cards */
-
-.card {
-    padding: 2rem;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
-    min-height: 100%;
-  }
-
-  .card:hover {
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
-    margin-top:-2px;
-  }
-
-  .profile {
-    width: 100%;
-    max-width: 8rem;
-    border-radius: 100%;
-    margin-bottom: 2rem;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
-  }
-.job {
-    font-weight: bold;
-    margin-bottom:0;
-  }
-  
-  .card .date {
-    margin-bottom: 2rem;
-  }
-
-  /* NEW Testimonials */
-
-  hr { /* this is a line element */
-    border: none;
-    border-bottom: 3px solid;
-    width: 4rem;
-    margin-bottom: 1rem;
-  }
-  
-  .profile-small {
-    max-width: 8rem;
-    width: 100%;
-    border-radius: 100%;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
-  }
