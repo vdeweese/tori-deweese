@@ -255,7 +255,7 @@ div.grid > div.align-top {
         padding-top: 0;
         margin-top:0;}
 
-    hidden {
+    .hidden {
         display: none;
     }
 }
