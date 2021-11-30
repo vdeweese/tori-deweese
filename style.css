@@ -263,4 +263,9 @@ div.grid > div.align-top {
     .hidden {
         display: none;
     }
+
+    .bg-plant {
+        background-color: rgb(245, 245, 245);
+        background-image: none;
+    }
 }
