@@ -144,6 +144,8 @@ header {
 
 .button:hover {
     opacity: 1;
+    background-color: #ffca3a;
+    
 }
 
 footer a:hover { 
