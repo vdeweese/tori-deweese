@@ -69,9 +69,11 @@ body {
 }
 
 h1 {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
     font-size: 3rem;
     color: #ffca3a;
-    font-style: italic;
+    font-style: normal;
 }
 
 h2,h3,h4,h5,h6 {
