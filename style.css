@@ -209,6 +209,14 @@ footer h3 {
     min-height: 100%;
   }
 
+.card-projects {
+    padding: 2rem;
+    background-color: #ffca3a;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+    min-height: 100%;
+  }
+
   .card:hover {
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
     margin-top:-2px;
