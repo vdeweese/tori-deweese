@@ -108,6 +108,8 @@ p:last-child {
 a {
     color: inherit;
     font: inherit;
+    border: 1px solid #000; 
+    padding: 4px 8px;
 }
 
 nav a {
