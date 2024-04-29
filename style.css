@@ -162,6 +162,10 @@ header {
     
 }
 
+div a:hover {
+    color: #000;
+}
+
 footer a:hover { 
     color: #ffca3a; 
 }
