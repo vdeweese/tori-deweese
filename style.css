@@ -298,4 +298,9 @@ div.grid > div.align-top {
         background-color: rgb(245, 245, 245);
         background-image: none;
     }
+   
+    .horizontal-scroll {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
 }
