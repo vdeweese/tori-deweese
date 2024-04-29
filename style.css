@@ -222,6 +222,11 @@ footer h3 {
     margin-top:-2px;
   }
 
+ .card-projects:hover {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+    margin-top:-2px;
+  }
+
   .profile {
     width: 100%;
     max-width: 8rem;
@@ -230,7 +235,7 @@ footer h3 {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
   }
   
-  .card .date {
+  .card .date .card-projects {
     margin-bottom: 2rem;
   }
 
