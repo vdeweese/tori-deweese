@@ -109,10 +109,12 @@ a {
     text-decoration: none;
     color: inherit;
     font: inherit;
+}
+
+.link-border {
     border: 1px solid white; 
     padding: 2px 2px;
 }
-
 nav a {
     text-decoration: none;
     padding: 0.25rem;
