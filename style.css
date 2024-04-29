@@ -208,7 +208,7 @@ footer h3 {
     padding: 2rem;
     background-color: white;
     border-radius: 5px;
-    border: 2px rgb(245, 245, 245);
+    border: 2px black;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
     min-height: 100%;
   }
