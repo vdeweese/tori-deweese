@@ -300,6 +300,7 @@ div.grid > div.align-top {
     }
    
     .horizontal-scroll {
+    width: 100%;
     overflow-x: auto;
     flex-wrap: nowrap;
   }
