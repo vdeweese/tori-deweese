@@ -36,7 +36,7 @@ html {
 .padded-t-0 { padding-top: 0; }
 .margin-b-0 { margin-bottom: 0; }
 
-.light-border {border: 10px solid white;}
+.light-border {border: 2px solid white;}
 
 /* .bg-rust  { background-color: #d3b4a2; }
 .bg-green { background-color: #9b9b81; }
