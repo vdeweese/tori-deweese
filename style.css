@@ -107,6 +107,7 @@ p:last-child {
 
 a {
     color: inherit;
+    font: inherit;
 }
 
 nav a {
