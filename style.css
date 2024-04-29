@@ -289,7 +289,7 @@ div.grid > div.align-top {
     .flex-flip-sm { flex-direction: column-reverse; }
 
     .inline {
-        text-align: left;
+        text-align: center;
         margin: 0;
     }
 
