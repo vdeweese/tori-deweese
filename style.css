@@ -168,7 +168,7 @@ div a:hover {
 
 div a {
     font-size: 0.9rem;
-    font-style: bold;
+    font-weight: bold;
 }
 
 footer a:hover { 
