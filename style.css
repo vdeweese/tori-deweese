@@ -166,6 +166,10 @@ div a:hover {
     color: #000;
 }
 
+div a {
+    font-size: 0.8rem;
+}
+
 footer a:hover { 
     color: #ffca3a; 
 }
