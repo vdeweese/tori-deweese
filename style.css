@@ -225,7 +225,8 @@ footer h3 {
   }
 
 .card-projects {
-    padding: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
     background-color: #ffca3a;
     border-radius: 5px;
     border: 2px solid white;
