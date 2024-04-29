@@ -268,7 +268,7 @@ div.grid > div.align-top {
   }
 
   /* SM - max-width in pixels approximately 768px */
-@media(max-width: 48em) {
+@media(max-width: 38em) {
 
     .hide-sm { display: none; }
 
